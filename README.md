@@ -32,10 +32,50 @@ DQN is used for image-based discrete Atari games, while PPO is used for continuo
 ## Results (high level)
 
 - **Freeway (DQN)**: Achieves a mean score around the low 20s, indicating convergence to a near-optimal policy under the given training budget. 
-- **Ant (PPO)**: Learns to move forward robustly with stable reward curves after tuning PPO hyperparameters.  
+
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/bd76e72c-597b-4acd-bc3a-86c34ce145fb" width="480" controls>
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+- **Ant (PPO)**: Learns to move forward robustly with stable reward curves after tuning PPO hyperparameters.
+
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/5dd3378d-4cb8-4ed6-9cde-25c9c515b078" width="480" controls>
+    Your browser does not support the video tag.
+  </video>
+</p>
+
 - **Riverraid (DQN/PPO)**: Performance improves with reward shaping but remains unstable, illustrating challenges of noisy, dense reward structures and catastrophic forgetting.
+
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/c2c9683e-3b82-452f-96d8-1edba51056e7" width="480" controls>
+    Your browser does not support the video tag.
+  </video>
+</p>
+
 - **Breakout (DQN)**: Reaches double-digit average scores and shows improved play after inference tweaks, with reward still increasing at the end of training. 
+
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/4508b7e9-780c-42b8-b903-99e6a6c7b2fa" width="480" controls>
+    Your browser does not support the video tag.
+  </video>
+</p>
+
 - **Reacher (PPO)**: Converges to a plateaued high reward, keeping the arm close to the target across episodes.
+
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/fe4f5875-4cd3-4a85-9358-9e26c5eb824e" width="480" controls>
+    Your browser does not support the video tag.
+  </video>
+</p>
+
 
 For detailed plots, hyperparameter tables, and discussion, see `ModernAI_FinalProjectPaper.pdf`.
 
