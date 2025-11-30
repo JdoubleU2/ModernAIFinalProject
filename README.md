@@ -1,6 +1,6 @@
 # Modern AI Final Project – Reinforcement Learning with OpenAI Gymnasium
 
-This repository contains the code and experiments for a Modern Artificial Intelligence final project exploring Deep Q-Networks (DQN) and Proximal Policy Optimization (PPO) on Atari and MuJoCo environments using Stable Baselines3 (SB3) and Gymnasium.
+This repository contains the code and experiments for my Modern Artificial Intelligence final project exploring Deep Q-Networks (DQN) and Proximal Policy Optimization (PPO) on Atari and MuJoCo environments using Stable Baselines3 (SB3) and Gymnasium.
 
 ---
 
